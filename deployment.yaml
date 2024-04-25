@@ -10,9 +10,8 @@ spec:
   template:
     metadata:
       labels:
-        metaLabel: sit653-62hd
-        app.kubernetes.io/name: sit653-62hd
-        environment: production
+        app: sit653-62hd
+        namespace: argocd
     spec:
       containers:
         - name: sit653-62hd
