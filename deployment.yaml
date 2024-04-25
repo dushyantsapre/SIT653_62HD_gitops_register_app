@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: register-app-deployment
+  name:sit653_62hd-deployment
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: register-app
+      app: sit653_62hd
   template:
     metadata:
       labels:
-        app: register-app
+        app: sit653_62hd
     spec:
       containers:
-        - name: register-app
-          image: ashfaque9x/register-app-pipeline:1.0.0-9
+        - name: sit653_62hd
+          image: dushyantsapre/sit653_62hd-pipeline:1.0.0-9
           resources:
             limits:
               memory: "256Mi"
