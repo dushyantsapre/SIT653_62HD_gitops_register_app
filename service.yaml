@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: sit653_62hd-service
+  name: sit653-62hd-service
   labels:
-    app: sit653_62hd
+    app: sit653-62hd
 spec:
   selector:
-    app: sit653_62hd
+    app: sit653-62hd
 
   ports:
     - port: 8080
