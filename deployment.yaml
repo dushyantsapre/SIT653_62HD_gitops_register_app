@@ -1,8 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name:sit653-62hd-deployment
-  namespace: argocd
+  name: sit653-62hd-deployment
 spec:
   replicas: 2
   selector:
