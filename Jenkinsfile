@@ -31,7 +31,7 @@ pipeline {
             steps {
                 withCredentials([usernamePassword(credentialsId: 'github', usernameVariable: 'GIT_USERNAME', passwordVariable: 'GIT_PASSWORD')]) {
                     sh """
-                       # Configure Git user for this repository only
+                       # Configure Git user for this repository only.
                        git config user.name 'dushyantsapre'
                        git config user.email 'dushyantsapre@yahoo.com'
                        
