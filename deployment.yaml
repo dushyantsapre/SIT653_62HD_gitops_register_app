@@ -12,7 +12,7 @@ spec:
       labels:
         metaLabel: sit653-62hd
         app.kubernetes.io/name: sit653-62hd
-        environment: 
+        environment: default
     spec:
       containers:
         - name: sit653-62hd
