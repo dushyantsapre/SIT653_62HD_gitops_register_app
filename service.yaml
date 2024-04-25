@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: register-app-service
+  name: sit653_62hd-service
   labels:
-    app: register-app 
+    app: sit653_62hd
 spec:
   selector:
-    app: register-app
+    app: sit653_62hd
 
   ports:
     - port: 8080
