@@ -29,7 +29,7 @@ pipeline {
 
         stage("Push the changed deployment file to Git") {
             steps {
-                withCredentials([usernamePassword(credentialsId: 'github-credentials-id', usernameVariable: 'GIT_USERNAME', passwordVariable: 'GIT_PASSWORD')]) {
+                withCredentials([usernamePassword(credentialsId: 'github', usernameVariable: 'GIT_USERNAME', passwordVariable: 'GIT_PASSWORD')]) {
                     sh """
                        # Configure Git user for this repository only
                        git config user.name 'dushyantsapre'
