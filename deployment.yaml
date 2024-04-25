@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: sit653_62hd
-          image: dushyantsapre/sit653_62hd-pipeline:1.0.0-9
+          image: dushyantsapre/sit653_62hd-pipeline:1.0.0-17
           resources:
             limits:
               memory: "256Mi"
