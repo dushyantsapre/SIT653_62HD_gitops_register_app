@@ -1,7 +1,7 @@
 pipeline {
     agent { label "Jenkins-Agent" }
     environment {
-              APP_NAME = "sit653_62hd"
+              APP_NAME = "sit653-62hd"
     }
 
     stages {
