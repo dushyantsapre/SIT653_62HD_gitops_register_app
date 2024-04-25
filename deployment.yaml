@@ -10,7 +10,9 @@ spec:
   template:
     metadata:
       labels:
-        app: sit653-62hd
+        metaLabel: sit653-62hd
+        app.kubernetes.io/name: sit653-62hd
+        environment: 
     spec:
       containers:
         - name: sit653-62hd
